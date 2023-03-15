@@ -3,7 +3,7 @@
 
 <b>Hello and welcome to Git and GitHub Workshop. </b>
 
-<img src="https://o.remove.bg/downloads/0317f84a-b38d-49ea-94ef-0656c88bfb3f/1color-orange-lightbg_2x-removebg-preview.png" height=150 width=400 alt="Git Image"> &nbsp; <img src="https://lthub.ubc.ca/files/2021/06/GitHub-Logo.png" height=150 width=300 alt="Github Image">
+<img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png" height=150 width=400 alt="Git Image"> &nbsp; <img src="https://lthub.ubc.ca/files/2021/06/GitHub-Logo.png" height=150 width=300 alt="Github Image">
 
 <br>
 
