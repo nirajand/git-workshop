@@ -3,7 +3,13 @@
 
 <b>Hello and welcome to Git and GitHub Workshop. </b>
 
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png" height=150 width=400 alt="Git Image"> &nbsp; <img src="https://lthub.ubc.ca/files/2021/06/GitHub-Logo.png" height=150 width=300 alt="Github Image">
+<img src="https://www.freecodecamp.org/news/content/images/2022/07/git-github.png" height=120 width=230 alt="Git Image">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<img src="https://www.elegantthemes.com/blog/wp-content/uploads/2019/01/000-VS-Code.png" height= 120 width = 230 alt= "Visual Studio Code Logo">
+
+Credit: FreeCodeCamp  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Credit: Elegant Themes
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
 <br>
 
@@ -15,7 +21,7 @@ Here you will learn:
 
 <br>
 
-If you are **Windows 11** user, you will find **Terminal** when you `Right-Click` on your screen. In Windows 10 and lower versions, you will find **Command Prompt**. To open Command Prompt, hold `Windows` key and press `R` (`Windows + R`) key at the same time. A dialogue box appears. Type `cmd`and press `Enter` key. A black screen appears which is Terminal / Command Prompt.
+If you are **Windows 11** user, you will find **Terminal** when you `Right-Click` on your screen. In Windows 10 and lower versions, you will find **Command Prompt**. To open Command Prompt, hold `Windows` key and press `R` (`Windows + R`) key at the same time. A dialogue box appears. Type `cmd` and press `Enter` key. A black screen appears which is Terminal / Command Prompt.
 
 <br>
 
