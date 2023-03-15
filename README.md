@@ -25,7 +25,7 @@ If you are **Windows 11** user, you will find **Terminal** when you `Right-Click
 
 <br>
 
-We will download few applications to save our time. We will have to download **Git**, **GitHub Desktop Application** , **GCC Compiler** for C programming compiler and **Visual Studio Code**. Please note that you are instructed to download the applications only. Do not install right after you install because it might fail when working with the applications. You can install **Github Desktop Application** and **VS Code** after you install because you have to set `Environment Variables` in `PATH` directory for **Git** and it can be overwhelming. **VS Code** takes long time to install in the device, and to continue with our work, please install it after the file is downloaded.  Follow the following links to download specific applications:
+We will download few applications to save our time. We will have to download **Git**, **GitHub Desktop Application** , **GCC Compiler** for C programming compiler and **Visual Studio Code**. Please note that you are instructed to download the applications only. Do not install right after you download because it might fail when working with the applications. You can install **Github Desktop Application** and **VS Code** after you download these but because you have to set `Environment Variables` in `PATH` directory for **Git** and it can be overwhelming. **VS Code** takes long time to install in the device, and to continue with our work, please install it after the file is downloaded.  Follow the following links to download specific applications:
 
 - To *Download* **Git**, [Click Here](https://git-scm.com/downloads). As of writing, **Git** version is 2.40.0. For your simplicity, there is a monitor icon at the right side on the website. You can download from that button. **Git** comes pre-installed in **Linux Distribution OSS**, so you don't need to download and install **Git**.
 
@@ -89,7 +89,7 @@ We will download few applications to save our time. We will have to download **G
 
 13. To check ping: `ping siteName`
    
-   For example, I can do: `ping google.com` to check ping. It will display the following output as of writing:
+     For example, I can do: `ping google.com` to check ping. It will display the following output as of writing:
    
      Pinging google.com [185.199.109.153] with 32 bytes of data:
      Reply from 185.199.109.153: bytes=32 time=71ms TTL=50
