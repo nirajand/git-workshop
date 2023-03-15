@@ -1,2 +1,4 @@
-# git-github-workshop-GU
-This repository contains git and Github workshop for Gandaki University
+# Git and GitHub Workshop/ Training at Gandaki University
+
+---
+
