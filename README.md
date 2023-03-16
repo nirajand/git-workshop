@@ -3,6 +3,8 @@
 
 <b>Hello and welcome to Git and GitHub Workshop. </b>
 
+Authored By: **<u>Nirajan Dhakal</u>**
+
 <img src="https://www.freecodecamp.org/news/content/images/2022/07/git-github.png" height=120 width=230 alt="Git Image">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<img src="https://www.elegantthemes.com/blog/wp-content/uploads/2019/01/000-VS-Code.png" height= 120 width = 230 alt= "Visual Studio Code Logo">
 
 Credit: FreeCodeCamp  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Credit: Elegant Themes
