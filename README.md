@@ -83,7 +83,6 @@ We will download few applications to save our time. We will have to download **G
 
    Reaching to a folder with less effort: ```cd initialLettersOfFolderName Tab Key```. Here, type `cd` and `space`, then type two or three letters of the folder and press ``Tab`` key.
    
----
 
 6. Creating a Directory/ Folder: ``` mkdir directoryName ``` or ``` md directoryName ```
    
@@ -109,6 +108,25 @@ We will download few applications to save our time. We will have to download **G
 ---
 
 
-
 ## Getting Started With Git
 
+
+**Source Control**
+
+Source control, or version control, is a way of tracking your files progress over time.
+
+It is usually saved in a series of snapshots and branches, which you can move back and forth between.
+
+**What you can do**
+
+- Distribute your file changes
+- over time
+- Prevent against data
+- loss/damage by creating
+- backup snapshots
+- Manage complex project
+- structures
+
+**About Git**
+
+Git is a source control software, which is similar to any other version control system. It was developed 
