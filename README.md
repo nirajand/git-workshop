@@ -132,3 +132,6 @@ It is usually saved in a series of snapshots and branches, which you can move ba
 Git is a source control software, which is similar to any other version control system. It was developed by Linux creator Linus Torvalds for code maintainence written by many programmers to control workflow and merge conflicts with the code.
 
 
+**Creating GitHub Account**
+
+If you are reading this on the browser, you are likely reading from GitHub. To create a GitHub acount, go to [https://github.com/login](https://github.com/login) and sign up. After following the procedure, you need to log in into GitHub. Then we set GitHub Desktop Application. 
