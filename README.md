@@ -129,4 +129,6 @@ It is usually saved in a series of snapshots and branches, which you can move ba
 
 **About Git**
 
-Git is a source control software, which is similar to any other version control system. It was developed 
+Git is a source control software, which is similar to any other version control system. It was developed by Linux creator Linus Torvalds for code maintainence written by many programmers to control workflow and merge conflicts with the code.
+
+
