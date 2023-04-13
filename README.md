@@ -107,4 +107,4 @@ We will download few applications to save our time. We will have to download **G
 
 ---
 
-Go to [about_Git.md](https://github.com/dhakalnirajan/git-workshop/blob/main/about_Git.md) to learn about Git, GitHub, and many more!
+Go to [Git.md](https://github.com/dhakalnirajan/git-workshop/blob/main/Git.md) to learn about Git, GitHub, and many more!
