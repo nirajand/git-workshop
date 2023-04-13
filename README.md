@@ -35,6 +35,10 @@ We will download few applications to save our time. We will have to download **G
 
 - To *Download* **Github Desktop Application**, [Click Here](https://desktop.github.com/). It is advised that you install this application.
 
+If you have any problem in downloading Git, go to a pdf file linked [here](https://github.com/dhakalnirajan/git-workshop/blob/main/Git%20PDF%20Files/what%20is%20git.pdf) and read the document, you will find the solution. The PDF is large, so GitHub won't show the file in the Rendered Block. Download the file and look into it.
+
+To Follow the Git Manual, go to the [Manual](https://github.com/dhakalnirajan/git-workshop/blob/main/Git%20PDF%20Files/Progit-Git%20Manual.pdf) and follow along.
+
 <br>
 
 <b> ULTIMATE VS CODE AND GCC COMPILER ALONG WITH C PROGRAMMING REFERENCE </b>
