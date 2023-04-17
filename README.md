@@ -112,3 +112,7 @@ To Follow the Git Manual, go to the [Manual](https://github.com/dhakalnirajan/gi
 ---
 
 Go to [Git.md](https://github.com/dhakalnirajan/git-workshop/blob/main/Git.md) to learn about Git, GitHub, and many more!
+
+---
+
+If you have been follwing the Git.md file, when you commit to a repository on GitHub, you will encounter with a error that needs you to have agreed to Contributor's License Agreement (**CLA**). To do that, go to [https://cla.developers.google.com/about/google-individual](https://cla.developers.google.com/about/google-individual) and read the terms of the agreement, and provide your GitHub username and the mailing address that was used to sign in into GitHub so as to maintain commits to the Open Source Community.
