@@ -12,6 +12,11 @@ Credit: FreeCodeCamp  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
 <br>
 
@@ -35,6 +40,8 @@ We will download few applications to save our time. We will have to download **G
 
 - To *Download* **Github Desktop Application**, [Click Here](https://desktop.github.com/). It is advised that you install this application.
 
+If you have any problem regarding `Git`, please visit [this url](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide). This is redirect hyperlink to Stackoverflow ang 
+
 If you have any problem in downloading Git, go to a pdf file linked [here](https://github.com/dhakalnirajan/git-workshop/blob/main/Git%20PDF%20Files/what%20is%20git.pdf) and read the document, you will find the solution. The PDF is large, so GitHub won't show the file in the Rendered Block. Download the file and look into it.
 
 To Follow the Git Manual, go to the [Manual](https://github.com/dhakalnirajan/git-workshop/blob/main/Git%20PDF%20Files/Progit-Git%20Manual.pdf) and follow along.
@@ -51,15 +58,18 @@ To Follow the Git Manual, go to the [Manual](https://github.com/dhakalnirajan/gi
 - To *Download* **Visual Studio Code**, [Click Here](https://code.visualstudio.com/download). It is advised that you install this application. Follow [this instructions](https://youtube.com/watch?v=JPZsB_6yHVo) from **YouTube** to properly setup **Visual Studio Code** on your computer.
 
 
+-------------   **Mingw** and **GCC Compiler** are necessary to compile and run C/ C++ programs. If you are not contributing related to  or C++ programming languages, it is not necessary to install them.    -------------------
+
+
 - To *Download* **Mingw** (**GCC Compiler**), To *Set Up* **VS Code** for **GCC Compiler**, please follow the instructions from the videos in the link below:
   
 
   - To *Download* **Mingw**, follow [this link](https://youtu.be/0HD0pqVtsmw)
   
 
-  - To setup **VS Code** for writing and executing C and C++ programs, follow [this link](https://youtu.be/77v-Poud_io)
+- To setup **VS Code** for writing and executing C and C++ programs, follow [this link](https://youtu.be/77v-Poud_io)
 
-
+- To *Download* **NodeJS** to execute **JavaScript** program, follow [this link](https://nodejs.org/en)
 ---
 
 
