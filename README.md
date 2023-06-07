@@ -45,7 +45,7 @@ To properly utilize our time, please download the following programs:
 
 Note that you download all the necessary applications first and do not go on installing right into your computer after it is downloaded. After you download all the applications, please install **VS Code** and **GitHub Desktop Application** but do nothing as the settings might affect. For **Git**, you have to set `Environment Variables` in `PATH` directory, which can be overwhelming. **VS Code** takes long time to install in the device, and to continue with smoothy work, please install it after the file is downloaded.  Follow the following links to download specific applications:
 
-##Download:
+## Download:
 
 - To *Download* **Git**, [Click Here](https://git-scm.com/downloads). As of writing, **Git** version is 2.40.0. For your simplicity, there is a monitor icon at the right side on the website. You can download from that button. **Git** comes pre-installed in **Linux Distribution OSS**, so you don't need to download and install **Git**.
 
