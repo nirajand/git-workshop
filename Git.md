@@ -89,6 +89,19 @@ For example, you can get the manpage help for the git config command by running 
 git help config
 ```
 
+
+
+### Git Commands We Will Use In This Session:
+git clone https://github.com/nirajand/git-workshop.git          //Making a copy of the repo in local device(PC)
+git init                                                                          //Initialize git in the git folder at local device
+git status                                                                        //Show file status
+git add .                                                                         //Add all the file 
+git commit -m "Commit Message"                                                    //Commit the files
+git remote add origin https://github.com/nirajand/git-workshop.git  //Connect your local git repo with a remote/online git repo.
+git push -u origin                                                                //Push(Send) it to the repo
+git pull                                                                          //Extract the contents from the repo to local device
+
+
 These commands are nice because you can access them anywhere, even offline.
 
 If you don’t need the full-blown manpage help, but just need a quick refresher on the available options for a Git command, you can ask for the more concise “help” output with the `-h` option, as in:
