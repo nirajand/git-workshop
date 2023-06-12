@@ -88,8 +88,7 @@ For example, you can get the manpage help for the git config command by running 
 ```
 git help config
 ```
-
-
+---
 
 ### Git Commands We Will Use In This Session:
 
@@ -124,6 +123,7 @@ repository, or
 
 In either case, you end up with a Git repository on your local machine, ready for work.
 
+---
 
 **Initializing a Repository in an Existing Directory**
 
@@ -147,6 +147,8 @@ git add .
 git add LICENSE
 git commit -m 'Initial project version'
 ```
+
+---
 
 **Cloning A Repository**
 
