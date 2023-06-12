@@ -143,7 +143,7 @@ probably begin tracking those files and do an initial commit. You can accomplish
 commands that specify the files you want to track, followed by a `git commit`:
 
 ```
-git add *.c
+git add .
 git add LICENSE
 git commit -m 'Initial project version'
 ```
