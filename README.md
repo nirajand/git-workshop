@@ -57,7 +57,7 @@ Note that you download all the necessary applications first and do not go on ins
 
 <br>
 
-If you have any problem regarding `Git`, please visit [this url](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide). This is redirect hyperlink to Stackoverflow ang 
+If you have any problem regarding `Git`, please visit [this url](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide). This is redirect hyperlink to StackOverflow which provides beginner's practical guide to Git and can be a great resource to learn Git.
 
 If you have any problem in downloading Git, go to a pdf file [here](https://github.com/dhakalnirajan/git-workshop/blob/main/Git%20PDF%20Files/what%20is%20git.pdf) and read the document, you will find the solution. The PDF is large, and GitHub won't show the file in the Rendered Block. Download the file and look into it.
 
