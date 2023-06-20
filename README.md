@@ -22,7 +22,7 @@ Credit: FreeCodeCamp  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
 <strong>It is advised that you read all the text here once throughly and then return to the top to follow the instructions on what and how to do things for this workshop.</strong>
 
 Here you will learn:
-- How to Use *Terminal* or *Command Prompt* on your computer, 
+- How to Use *Terminal* or *Command Prompt* on your computer,
 - About **Git**, **GitHub** and **Visual Studio Code** (VS Code),
 - How to use **Git** from **Terminal**,
 - How to use VS Code and use **Git**, **Github** from *VS Code*.
@@ -31,6 +31,9 @@ Here you will learn:
 
 If you are **Windows 11** user, you will find **Terminal** when you `Right-Click` on your screen. In Windows 10 and lower versions, you will find **Command Prompt**. To open Command Prompt, hold `Windows` key and press `R` (`Windows + R`) key at the same time. A dialogue box appears. Type `cmd` and press `Enter` key. A black screen appears which is Terminal / Command Prompt.
 
+The Terminal will look something like this:
+
+![Terminal Screenshot](image.png)
 <br>
 
 To properly utilize our time, please download the following programs:
