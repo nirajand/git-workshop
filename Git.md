@@ -1,4 +1,4 @@
-## Getting Started With Git
+# Getting Started With Git
 
 **Source Control**
 
@@ -18,15 +18,21 @@ It is usually saved in a series of snapshots and branches, which you can move ba
 
 **About Git**
 
-Git is a source control software, which is similar to any other version control system. It was developed by Linux creator Linus Torvalds for code maintenance written by many programmers to control workflow and merge conflicts with the code.
+Git is a source control software, which is similar to any other version control system. It was developed by Linux creator Linus Torvalds for code maintenance written by many programmers to control workflow and merge conflicts with the code. It is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+**Why Git**
+
+- Git is a distributed version control system.
+- Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
 
 **Creating GitHub Account**
 
-If you are reading this on the browser, you are likely reading from GitHub. To create a GitHub acount, go to [https://github.com/login](https://github.com/login) and sign up. After following the procedure, you need to log in into GitHub. Then we set GitHub Desktop Application.
+If you are reading this on the browser, you are likely reading from GitHub. To create a GitHub account, go to [https://github.com/login](https://github.com/login) and sign up. After following the procedure, you need to log in into GitHub. Then we set GitHub Desktop Application.
 
 **What is GitHub Desktop?**
 
-GitHub is an open-source application that lets you interact with GitHub via a Graphical User Interface (GUI) instead of relying on a command line or a web browser. GitHub Desktop incentivized you and your team to work together while employing best practices with Git and GitHub.
+GitHub is an open-source application that lets you interact with GitHub via a Graphical User Interface (GUI) instead of relying on a command line or a web browser. GitHub Desktop incentivizes you and your team to work together while employing best practices with Git and GitHub. GitHub Desktop is an application that lets users interact better with GitHub through a GUI.
 
 So, to sum it up, Git is a VCS that helps you manage your code and keep track of it, and GitHub is a cloud-based hosting platform that enables developers to manage their Git repositories. GitHub Desktop is an application that lets users interact better with GitHub through a GUI.
 
@@ -107,14 +113,14 @@ To update the Git to latest version in Windows, type the following command in th
 ### Git Commands We Will Use In This Session
 
 ```
-git clone https://github.com/nirajand/git-workshop.git          //Making a copy of the repo in local device(PC)
-git init                                                                          //Initialize git in the git folder at local device
-git status                                                                        //Show file status
-git add .                                                                         //Add all the file 
-git commit -m "Commit Message"                                                    //Commit the files
-git remote add origin https://github.com/nirajand/git-workshop.git  //Connect your local git repo with a remote/online git repo.
-git push -u origin                                                                //Push(Send) it to the repo
-git pull                                                                          //Extract the contents from the repo to local device
+$ git clone https://github.com/nirajand/git-workshop.git          //Making a copy of the repo in local device(PC)
+$ git init                                                                          //Initialize git in the git folder at local device
+$ git status                                                                        //Show file status
+$ git add .                                                                         //Add all the file 
+$ git commit -m "Commit Message"                                                    //Commit the files
+$ git remote add origin https://github.com/nirajand/git-workshop.git  //Connect your local git repo with a remote/online git repo.
+$ git push -u origin                                                                //Push(Send) it to the repo
+$ git pull                                                                          //Extract the contents from the repo to local device
 ```
 
 These commands are nice because you can access them anywhere, even offline.
@@ -122,7 +128,7 @@ These commands are nice because you can access them anywhere, even offline.
 If you don’t need the full-blown manpage help, but just need a quick refresher on the available options for a Git command, you can ask for the more concise “help” output with the `-h` option, as in:
 
 ```
-git add -h
+$ git add -h
 ```
 
 **Getting a Git Repository**
@@ -145,7 +151,7 @@ controlling it with Git, you first need to go to that project’s directory.
 Use command `cd` and reach to the directory you want to work your project to be kept. The commands are well-documented at the README.md file. Please find the command, and reach to the directory and type the command:
 
 ```
-git init
+$ git init
 ```
 
 This creates a new subdirectory named `.git` that contains all of your necessary repository files — a Git repository skeleton. At this point, nothing in your project is tracked yet.
@@ -155,9 +161,9 @@ probably begin tracking those files and do an initial commit. You can accomplish
 commands that specify the files you want to track, followed by a `git commit`:
 
 ```
-git add .
-git add LICENSE
-git commit -m 'Initial project version'
+$ git add .
+$ git add LICENSE
+$ git commit -m 'Initial project version'
 ```
 
 ---
@@ -170,7 +176,7 @@ contribute to — the command you need is `git clone`.
 To clone a repository, follow the command:
 
 ```
-git clone <url>
+$ git clone <url>
 ```
 
 `<url>` Has value in either https or ssh you can copy from and has the url ending with `.git`.
@@ -180,7 +186,7 @@ git clone <url>
 The main tool you use to determine which files are in which state is the git status command. If you run this command directly after a clone, you should see something like this:
 
 ```
-git status
+$ git status
 ```
 
 GitHub changed the default branch name from master to main in mid-2020, and other Git hosts followed suit. So you may find that the default branch name in some newly created repositories is main and not master. In addition, the default branch name can be changed (as you have seen in Your default branch name), so you may see a different name for the default branch.
@@ -192,7 +198,7 @@ However, Git itself still uses master as the default, so we will use it througho
 In order to begin tracking a new file, you use the command git add. To begin tracking the README file, you can run this:
 
 ```
-git add fileName
+$ git add fileName
 ```
 
 **Short Status**
@@ -200,7 +206,7 @@ git add fileName
 While the git status output is pretty comprehensive, it’s also quite wordy. Git also has a short status flag so you can see your changes in a more compact way. If you run `git status -s` or `git status --short` you get a far more simplified output from the command:
 
 ```
-git status -s
+$ git status -s
 ```
 
 **Committing Changes**
@@ -208,7 +214,7 @@ git status -s
 Now that your staging area is set up the way you want it, you can commit your changes. Remember that anything that is still unstaged — any files you have created or modified that you haven’t run `git add` on since you edited them — won’t go into this commit. They will stay as modified files on your disk. In this case, let’s say that the last time you ran `git status`, you saw that everything was staged, so you’re ready to commit your changes. The simplest way to commit is to type `git commit`:
 
 ```
-git commit
+$ git commit
 ```
 
 **Removing Files**
@@ -216,7 +222,7 @@ git commit
 To remove a file from Git, you have to remove it from your tracked files (more accurately, remove it from your staging area) and then commit. The `git rm` command does that, and also removes the file from your working directory so you don’t see it as an untracked file the next time around.
 
 ```
-git rm fileName
+$ git rm fileName
 ```
 
 **Moving Files**
@@ -224,15 +230,15 @@ git rm fileName
 Unlike many other VCSs, Git doesn’t explicitly track file movement. If you rename a file in Git, no metadata is stored in Git that tells it you renamed the file.
 
 ```
-git mv file_from file_to
+$ git mv file_from file_to
 ```
 
 **Viewing the Commit History**
 
-After you have created several commits, or if you have cloned a rgit epository with an existing commit history, you’ll probably want to look back to see what has happened. The most basic and powerful tool to do this is the `git log` command.
+After you have created several commits, or if you have cloned a repository with an existing commit history, you’ll probably want to look back to see what has happened. The most basic and powerful tool to do this is the `git log` command.
 
 ```
-git log
+$ git log
 ```
 
 ### Working with Remotes
@@ -301,7 +307,7 @@ Paul’s master branch is now accessible locally as pb/master — you can merge 
 As you just saw, to get data from your remote projects, you can run:
 
 ```
-git fetch <remote>
+$  git fetch <remote>
 ```
 
 The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet. After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time.
@@ -311,7 +317,7 @@ The command goes out to that remote project and pulls down all the data from tha
 When you have your project at a point that you want to share, you have to push it upstream. The command for this is simple: `git push <remote> <branch>`. If you want to push your `master` branch to your `origin` server (again, cloning generally sets up both of those names for you automatically), then you can run this to push any commits you’ve done back up to the server:
 
 ```
-git push origin master
+$ git push origin master
 ```
 
 This command works only if you cloned from a server to which you have write access and if nobody has pushed in the meantime. If you and someone else clone at the same time and they push upstream and then you push upstream, your push will rightly be rejected. You’ll have to fetch their work first and incorporate it into yours before you’ll be allowed to push.
@@ -323,10 +329,10 @@ A new feature in Git that can make your Git experience simpler, easier, and more
 Git doesn’t automatically infer your command if you type it in partially. If you don’t want to type the entire text of each of the Git commands, you can easily set up an alias for each command using `git config`. Here are a couple of examples you may want to set up:
 
 ```
-git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.ci commit
-git config --global alias.st status
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
 ```
 
 This means that, for example, instead of typing `git commit`, you just need to type `git ci`. As you go on using Git, you’ll probably use other commands frequently as well; don’t hesitate to create new aliases.
@@ -334,20 +340,20 @@ This means that, for example, instead of typing `git commit`, you just need to t
 This technique can also be very useful in creating commands that you think should exist. For example, to correct the usability problem you encountered with unstaging a file, you can add your own unstage alias to Git:
 
 ```
-git config --global alias.unstage 'reset HEAD --'
+$ git config --global alias.unstage 'reset HEAD --'
 ```
 
 This makes the following two commands equivalent:
 
 ```
-git unstage fileA
-git reset HEAD -- fileA
+$ git unstage fileA
+$ git reset HEAD -- fileA
 ```
 
 This seems a bit clearer. It’s also common to `add` a last command, like this:
 
 ```
-git config --global alias.last 'log -1 HEAD'
+$ git config --global alias.last 'log -1 HEAD'
 ```
 
 This way, you can see the last commit easily:
