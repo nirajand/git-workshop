@@ -224,7 +224,7 @@ git mv file_from file_to
 
 **Viewing the Commit History**
 
-After you have created several commits, or if you have cloned a repository with an existing commit history, you’ll probably want to look back to see what has happened. The most basic and powerful tool to do this is the `git log` command.
+After you have created several commits, or if you have cloned a rgit epository with an existing commit history, you’ll probably want to look back to see what has happened. The most basic and powerful tool to do this is the `git log` command.
 
 ```
 git log
