@@ -1,6 +1,5 @@
 ## Getting Started With Git
 
-
 **Source Control**
 
 Source control, or version control, is a way of tracking your files progress over time.
@@ -19,12 +18,11 @@ It is usually saved in a series of snapshots and branches, which you can move ba
 
 **About Git**
 
-Git is a source control software, which is similar to any other version control system. It was developed by Linux creator Linus Torvalds for code maintainence written by many programmers to control workflow and merge conflicts with the code.
-
+Git is a source control software, which is similar to any other version control system. It was developed by Linux creator Linus Torvalds for code maintenance written by many programmers to control workflow and merge conflicts with the code.
 
 **Creating GitHub Account**
 
-If you are reading this on the browser, you are likely reading from GitHub. To create a GitHub acount, go to [https://github.com/login](https://github.com/login) and sign up. After following the procedure, you need to log in into GitHub. Then we set GitHub Desktop Application. 
+If you are reading this on the browser, you are likely reading from GitHub. To create a GitHub acount, go to [https://github.com/login](https://github.com/login) and sign up. After following the procedure, you need to log in into GitHub. Then we set GitHub Desktop Application.
 
 **What is GitHub Desktop?**
 
@@ -40,7 +38,6 @@ Sign in to GitHub: Once the installation is complete, launch GitHub Desktop. If 
 
 Configure GitHub Desktop: After signing in, you will be prompted to configure GitHub Desktop. You can choose to set your name and email, the default text editor, and other preferences.
 
-
 ### First Time Git Setup
 
 Now that you have Git on your system, you’ll want to do a few things to customize your Git environment.
@@ -52,8 +49,7 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
-"John Doe" is a username passed into git and "johndoe@example.com" is the mailing address passed into git so as to setup your identity. Please be cautious that the `user.email` should have the same email address as the one used to sign in into GitHub.
-
+"John Doe" is a username passed into git and "<johndoe@example.com>" is the mailing address passed into git so as to setup your identity. Please be cautious that the `user.email` should have the same email address as the one used to sign in into GitHub.
 
 **Your default branch name**
 
@@ -88,9 +84,10 @@ For example, you can get the manpage help for the git config command by running 
 ```
 git help config
 ```
+
 ---
 
-### Git Commands We Will Use In This Session:
+### Git Commands We Will Use In This Session
 
 ```
 git clone https://github.com/nirajand/git-workshop.git          //Making a copy of the repo in local device(PC)
@@ -103,7 +100,6 @@ git push -u origin                                                              
 git pull                                                                          //Extract the contents from the repo to local device
 ```
 
-
 These commands are nice because you can access them anywhere, even offline.
 
 If you don’t need the full-blown manpage help, but just need a quick refresher on the available options for a Git command, you can ask for the more concise “help” output with the `-h` option, as in:
@@ -111,7 +107,6 @@ If you don’t need the full-blown manpage help, but just need a quick refresher
 ```
 git add -h
 ```
-
 
 **Getting a Git Repository**
 
@@ -139,7 +134,7 @@ git init
 This creates a new subdirectory named `.git` that contains all of your necessary repository files — a Git repository skeleton. At this point, nothing in your project is tracked yet.
 
 If you want to start version-controlling existing files (as opposed to an empty directory), you should
-probably begin tracking those files and do an initial commit. You can accomplish that with a few `git add` 
+probably begin tracking those files and do an initial commit. You can accomplish that with a few `git add`
 commands that specify the files you want to track, followed by a `git commit`:
 
 ```
@@ -163,7 +158,6 @@ git clone <url>
 
 `<url>` Has value in either https or ssh you can copy from and has the url ending with `.git`.
 
-
 **Checking the Status of Your Files**
 
 The main tool you use to determine which files are in which state is the git status command. If you run this command directly after a clone, you should see something like this:
@@ -176,7 +170,6 @@ GitHub changed the default branch name from master to main in mid-2020, and othe
 
 However, Git itself still uses master as the default, so we will use it throughout the learning process.
 
-
 **Tracking New Files**
 
 In order to begin tracking a new file, you use the command git add. To begin tracking the README file, you can run this:
@@ -184,7 +177,6 @@ In order to begin tracking a new file, you use the command git add. To begin tra
 ```
 git add fileName
 ```
-
 
 **Short Status**
 
@@ -194,7 +186,6 @@ While the git status output is pretty comprehensive, it’s also quite wordy. Gi
 git status -s
 ```
 
-
 **Committing Changes**
 
 Now that your staging area is set up the way you want it, you can commit your changes. Remember that anything that is still unstaged — any files you have created or modified that you haven’t run `git add` on since you edited them — won’t go into this commit. They will stay as modified files on your disk. In this case, let’s say that the last time you ran `git status`, you saw that everything was staged, so you’re ready to commit your changes. The simplest way to commit is to type `git commit`:
@@ -202,7 +193,6 @@ Now that your staging area is set up the way you want it, you can commit your ch
 ```
 git commit
 ```
-
 
 **Removing Files**
 
@@ -212,7 +202,6 @@ To remove a file from Git, you have to remove it from your tracked files (more a
 git rm fileName
 ```
 
-
 **Moving Files**
 
 Unlike many other VCSs, Git doesn’t explicitly track file movement. If you rename a file in Git, no metadata is stored in Git that tells it you renamed the file.
@@ -220,7 +209,6 @@ Unlike many other VCSs, Git doesn’t explicitly track file movement. If you ren
 ```
 git mv file_from file_to
 ```
-
 
 **Viewing the Commit History**
 
@@ -230,12 +218,10 @@ After you have created several commits, or if you have cloned a rgit epository w
 git log
 ```
 
-
 ### Working with Remotes
 
 To be able to collaborate on any Git project, you need to know how to manage your remote repositories. Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either read-only or read/write for you. Collaborating with others involves managing these remote repositories and
 pushing and pulling data to and from them when you need to share work. Managing remote repositories includes knowing how to add remote repositories, remove remotes that are no longer valid, manage various remote branches and define them as being tracked or not, and more.
-
 
 **Showing Your Remotes**
 
@@ -255,7 +241,6 @@ origin
 ```
 
 The above code block is an example after cloning the repo called "ticgit".
-
 
 You can also specify -v, which shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote:
 
@@ -299,11 +284,10 @@ Paul’s master branch is now accessible locally as pb/master — you can merge 
 As you just saw, to get data from your remote projects, you can run:
 
 ```
-$ git fetch <remote>
+git fetch <remote>
 ```
 
 The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet. After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time.
-
 
 **Pushing to Your Remotes**
 
@@ -314,7 +298,6 @@ git push origin master
 ```
 
 This command works only if you cloned from a server to which you have write access and if nobody has pushed in the meantime. If you and someone else clone at the same time and they push upstream and then you push upstream, your push will rightly be rejected. You’ll have to fetch their work first and incorporate it into yours before you’ll be allowed to push.
-
 
 **Git Aliases**
 
@@ -340,14 +323,14 @@ git config --global alias.unstage 'reset HEAD --'
 This makes the following two commands equivalent:
 
 ```
-$ git unstage fileA
-$ git reset HEAD -- fileA
+git unstage fileA
+git reset HEAD -- fileA
 ```
 
 This seems a bit clearer. It’s also common to `add` a last command, like this:
 
 ```
-$ git config --global alias.last 'log -1 HEAD'
+git config --global alias.last 'log -1 HEAD'
 ```
 
 This way, you can see the last commit easily:
