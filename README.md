@@ -25,11 +25,12 @@ Credit: FreeCodeCamp  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
 Here you will learn:
 1. How to install Git on your computer
 2. How to use Git on your computer
-3. How to create a GitHub account
-4. How to use GitHub on your computer
-5. How to create a repository on GitHub
-6. How to use Git commands on your computer
-7. How to use Terminal or Powershell on your computer
+3. Learn about Open Source
+4. How to create a GitHub account
+5. How to use GitHub on your computer
+6. How to create a repository on GitHub
+7. How to use Git commands on your computer
+8. How to use Terminal or Powershell on your computer
 
 <br>
 
@@ -151,3 +152,26 @@ Go to [Git.md](https://github.com/dhakalnirajan/git-workshop/blob/main/Git.md) t
 ---
 
 If you have been follwing the Git.md file, when you commit to a repository on GitHub, you will encounter with a error that needs you to have agreed to Contributor's License Agreement (**CLA**). To do that, go to [https://cla.developers.google.com/about/google-individual](https://cla.developers.google.com/about/google-individual) and read the terms of the agreement, and provide your GitHub username and the mailing address that was used to sign in into GitHub so as to maintain commits to the Open Source Community.
+
+### Open Source Ecosystem
+
+Open Source is a type of software development in which the source code of the software is freely available for anyone to view, modify, and distribute. Open Source Software is 100% free and is developed by a community of developers who freely share their knowledge and work together to improve the software.
+
+The Open Source Ecosystem refers to the interconnected network of projects, communities, tools, and resources that exist within the realm of open source software development. Open source software is software that is released with a license that allows users to view, modify, and distribute the source code freely. The open source ecosystem promotes collaboration, transparency, and community-driven development.
+
+The key components of Open Source Ecosystem include:
+
+1. **Open Source Projects:** Open Source Projects are software projects that are developed and distributed under licenses that allow users to view, modify, and distribute the source code freely.
+
+2. **Open Source Communities:** Open Source Communities are online forums where users can share their knowledge, learn  and interact with each other. The forums like StackOverflow, Reddit, and Linux Journey are some of the most popular Open Source Communities.
+
+3. **Open Source Tools:** Open Source Tools are software tools that are developed and distributed under licenses that allow users to view, modify, and distribute the source code freely. The tools like GitHub, Git, and Linux are some of the most popular Open Source Tools.
+
+4. **Open Source Resources:** Open Source Resources are websites, books, and other  resources that are freely available online. The resources like Wikipedia, FreeCodeCamp, and Linux Journey are some of the most popular Open Source Resources.
+
+5. **Open Source Licenses:** Open Source Licenses are licenses that allow users to view, modify, and distribute the source code freely.
+
+6. **Open Source Philosophy:** Open Source Philosophy is a set of principles that guide the development of Open Source Software.
+
+
+Open Source Ecosystem fosters collaboration, innovation, and the democratization of software development. It enables developers from around the world to contribute to projects, learn from others, and build upon existing code to create high-quality software that is accessible to all.
