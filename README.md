@@ -19,61 +19,70 @@ Credit: FreeCodeCamp  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
 
 <br>
 
-<strong>It is advised that you read all the text here once throughly and then return to the top to follow the instructions on what and how to do things for this workshop.</strong>
+<strong>It is advised that you read all the text here once thoroughly and then return to the top to follow the instructions on what and how to do things for this workshop.</strong>
+
 
 Here you will learn:
-- How to Use *Terminal* or *Command Prompt* on your computer,
-- About **Git**, **GitHub** and **Visual Studio Code** (VS Code),
-- How to use **Git** from **Terminal**,
-- How to use VS Code and use **Git**, **Github** from *VS Code*.
+1. How to install Git on your computer
+2. How to use Git on your computer
+3. How to create a GitHub account
+4. How to use GitHub on your computer
+5. How to create a repository on GitHub
+6. How to use Git commands on your computer
+7. How to use Terminal or Powershell on your computer
 
 <br>
 
-If you are **Windows 11** user, you will find **Terminal** when you `Right-Click` on your screen. In Windows 10 and lower versions, you will find **Command Prompt**. To open Command Prompt, hold `Windows` key and press `R` (`Windows + R`) key at the same time. A dialogue box appears. Type `cmd` and press `Enter` key. A black screen appears which is Terminal / Command Prompt.
-
-The Terminal will look something like this:
-
-![Terminal Screenshot](image.png)
-<br>
-
-To properly utilize our time, please download the following programs:
-
-- **Git**,
-- **GitHub Desktop Application**,
-- **GCC Compiler** for C/C++ programming compiler (If you are going to write and compile C programs, you can install MingW and GCC compiler. Else, it is not necessary) and
+Download the following programs:
+- **Git**
+- **GitHub Desktop Application**
 - **Visual Studio Code**
+- (Optional: Download only if you need it) **GCC Compiler**
+- **Sublime Text**
+- **Java Development Kit**
 
 <strong> The path to download each program is provided below.</strong>
 
-
-Note that you download all the necessary applications first and do not go on installing right into your computer after it is downloaded. After you download all the applications, please install **VS Code** and **GitHub Desktop Application** but do nothing as the settings might affect. For **Git**, you have to set `Environment Variables` in `PATH` directory, which can be overwhelming. **VS Code** takes long time to install in the device, and to continue with smoothy work, please install it after the file is downloaded.  Follow the following links to download specific applications:
-
-## Download:
-
-- To *Download* **Git**, [Click Here](https://git-scm.com/downloads). As of writing, **Git** version is 2.40.0. For your simplicity, there is a monitor icon at the right side on the website. You can download from that button. **Git** comes pre-installed in **Linux Distribution OSS**, so you don't need to download and install **Git**.
-
-
-- To *Download* **Github Desktop Application**, [Click Here](https://desktop.github.com/). It is advised that you install this application.
-
-- To *Download* **Visual Studio Code**, [Click Here](https://code.visualstudio.com/download). It is advised that you install this application. Follow [this instructions](https://youtube.com/watch?v=JPZsB_6yHVo) from **YouTube** to properly setup **Visual Studio Code** on your computer.
+1. Git: https://git-scm.com/downloads
+2. GitHub Desktop Application: https://desktop.github.com/
+3. Visual Studio Code: https://code.visualstudio.com/
+4. GCC Compiler: https://sourceforge.net/projects/mingw/files
+5. Sublime Text:  https://www.sublimetext.com/
+6. Java Development Kit (JDK): https://www.oracle.com/java/technologies/downloads/
 
 
 <br>
 
-If you have any problem regarding `Git`, please visit [this url](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide). This is redirect hyperlink to StackOverflow which provides beginner's practical guide to Git and can be a great resource to learn Git.
+Note that you download all the necessary applications first and then go through installation phase only for the programs mentioned here.
 
-If you have any problem in downloading Git, go to a pdf file [here](https://github.com/dhakalnirajan/git-workshop/blob/main/Git%20PDF%20Files/what%20is%20git.pdf) and read the document, you will find the solution. The PDF is large, and GitHub won't show the file in the Rendered Block. Download the file and look into it.
+After you download the applications, please install *VS Code** and **GitHub Desktop Application** but do not perform anything as  of now.
 
-To Follow the Git Manual, go to the [Manual](https://github.com/dhakalnirajan/git-workshop/blob/main/Git%20PDF%20Files/Progit-Git%20Manual.pdf) and follow along.
+<br>
 
+For **Git**, you have to set `Environment Variables` in `PATH` directory, which can be overwhelming. **VS Code** takes long time to install in the device, and to continue with smoothy work, please install it after the file is downloaded.
+
+As of writing, **Git** version is 2.40.0. For your simplicity, there is a monitor icon at the right side on the website. You can download from that button. In Linux based OS, Git used to be pre-installed in the OS but this is not the case these days, so Linux users too can download Git from the command below:
+
+For debian based Linux Distro, enter the following command on your terminal: ```sudo apt-get install git```
+
+
+For MacOS, you can download Git from: https://git-scm.com/download/mac
+
+<br>
+
+If you have any problem regarding `Git`, please visit [this url](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide). This is redirect link to StackOverflow which provides beginner's practical guide to Git and can be a great resource to learn Git.
+
+If you have any problem in downloading Git, go to a pdf file [here](./Git%20PDF%20Files/what%20is%20git.pdf) and read the document, you will find the solution. The PDF is large, and GitHub won't show the file in the Rendered Block. Download the file and look into it.
+
+To Follow the Git Manual, go to the [Manual](./Git%20PDF%20Files/Progit-Git%20Manual.pdf) and follow along.
 
 - To *Download* **Mingw** (**GCC Compiler**), To *Set Up* **VS Code** for **GCC Compiler**, please follow the instructions from the videos in the link below:
-  
+
 
   - To *Download* **Mingw**, follow [this link](https://youtu.be/0HD0pqVtsmw)
 
 
--------------   **Mingw** and **GCC Compiler** are necessary to compile and run C/ C++ programs. If you are not contributing related to  or C++ programming languages, it is not necessary to install them.    -------------------
+-------------   **Mingw** and **GCC Compiler** are necessary to compile and run C/ C++ programs. If you are not contributing related to C or C++ programming languages, it is not necessary to install them.    -------------------
 
   
 <b> ULTIMATE VS CODE AND GCC COMPILER ALONG WITH C PROGRAMMING REFERENCE </b>
@@ -82,16 +91,14 @@ To Follow the Git Manual, go to the [Manual](https://github.com/dhakalnirajan/gi
 
 <br>
 
-
-- To setup **VS Code** for writing and executing C and C++ programs, follow [this link](https://youtu.be/77v-Poud_io)
-
-- To *Download* **NodeJS** to execute **JavaScript** program, follow [this link](https://nodejs.org/en)
-
-
----
-
-
 ### Before We Dive In Into Git and Github, We Will Learn Simple *Terminal* Commands To Ease Up Our Workflow:
+
+If you are **Windows 11** user, you will find **Terminal** when you `Right-Click` on your screen. In Windows 10 and lower versions, you will find **Command Prompt**. To open Command Prompt, hold `Windows` key and press `R` (`Windows + R`) key at the same time. A dialogue box appears. Type `cmd` and press `Enter` key. A black screen appears which is Terminal / Command Prompt.
+
+The Terminal will look something like this:
+
+![Terminal Image](image.png)
+<br>
 
 1. Changing Directory (Accessing Directory): ```cd```
 
@@ -108,10 +115,10 @@ To Follow the Git Manual, go to the [Manual](https://github.com/dhakalnirajan/gi
 3. Reaching Parent Directory: ```cd..```
   ```cd``` followed by two periods (fullstops).
 
-4. Reaching Root Directory: ```cd\```
+1. Reaching Root Directory: ```cd\```
    `cd` followed by a backward slash.
    
-5. Reaching to a folder from folder path:  ```cd\folderName\subFolderName```
+2. Reaching to a folder from folder path:  ```cd\folderName\subFolderName```
 
    Reaching to a folder with less effort: ```cd initialLettersOfFolderName Tab Key```. Here, type `cd` and `space`, then type two or three letters of the folder and press ``Tab`` key.
    
