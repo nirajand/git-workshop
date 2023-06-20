@@ -38,6 +38,15 @@ Sign in to GitHub: Once the installation is complete, launch GitHub Desktop. If 
 
 Configure GitHub Desktop: After signing in, you will be prompted to configure GitHub Desktop. You can choose to set your name and email, the default text editor, and other preferences.
 
+
+> While reading through the file below, when you encounter line(s) such as a line written below,
+```
+$ git status
+```
+> you will see $ symbol. In README.md file, whenever you see a $ sign, understand that this lines indicates code to be entered in the terminal in particular. In some cases, some authors use $ symbol for language specific commands in the README file.
+
+<br>
+
 ### First Time Git Setup
 
 Now that you have Git on your system, you’ll want to do a few things to customize your Git environment.
@@ -45,8 +54,8 @@ Now that you have Git on your system, you’ll want to do a few things to custom
 The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
 
 ```
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
 ```
 
 "John Doe" is a username passed into git and "<johndoe@example.com>" is the mailing address passed into git so as to setup your identity. Please be cautious that the `user.email` should have the same email address as the one used to sign in into GitHub.
@@ -58,7 +67,7 @@ By default Git will create a branch called master when you create a new reposito
 To set main as the default branch name do:
 
 ```
-git config --global init.defaultBranch main
+$ git config --global init.defaultBranch main
 ```
 
 **Checking Your Settings**
@@ -66,7 +75,7 @@ git config --global init.defaultBranch main
 If you want to check your configuration settings, you can use the command to list all the settings Git can find at that point:
 
 ```
-git config --list
+$ git config --list
 ```
 
 **Getting Help**
@@ -74,16 +83,24 @@ git config --list
 If you ever need help while using Git, there are three equivalent ways to get the comprehensive manual page (manpage) help for any of the Git commands:
 
 ```
-git help <verb>
-git <verb> --help
-man git-<verb>
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
 ```
 
 For example, you can get the manpage help for the git config command by running this:
 
 ```
-git help config
+$ git help config
 ```
+
+
+To use the latest version of Git, you need to update the Git. But be careful with the latest versions and look out for the words such as "recent maintained build" or "maintained build" which means it is Long Term Support (LTS) version and will not crash when working with it. If you install under maintenence build version, you will experience a lot of commands or builds crashing. So, it is advised to look out for such information, not only for Git but for many Open Source applications because commercial applications are packaged and are fully tested before they are sold out in the marketplace.
+
+To update the Git to latest version in Windows, type the following command in the new terminal or powershell window:
+
+    $ git update-git-for-windows
+
 
 ---
 
