@@ -1,6 +1,7 @@
 # Git and GitHub Training (Workshop) at Gandaki University
 
 
+
 Author: **<u>Nirajan Dhakal</u>**
 
 <img src="https://www.freecodecamp.org/news/content/images/2022/07/git-github.png" height=120 width=230 alt="Git Image">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<img src="https://www.elegantthemes.com/blog/wp-content/uploads/2019/01/000-VS-Code.png" height= 120 width = 230 alt= "Visual Studio Code Logo">
